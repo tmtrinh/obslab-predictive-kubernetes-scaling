@@ -8,6 +8,7 @@ metadata:
   annotations:
     predictive-kubernetes-scaling.observability-labs.dynatrace.com/enabled: 'true'
     predictive-kubernetes-scaling.observability-labs.dynatrace.com/hpa: 'anomaly-simulation'
+    predictive-kubernetes-scaling.observability-labs.dynatrace.com/managed-by-repo: 'tmtrinh/obslab-predictive-kubernetes-scaling'
 spec:
   replicas: 1
   selector:
